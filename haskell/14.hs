@@ -1,0 +1,1 @@
+duplicateElts xs = foldl (\x y -> x++[y,y]) [] xs
