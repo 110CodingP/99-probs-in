@@ -1,0 +1,1 @@
+palindromeCheck xs =  all (uncurry (==)) ( zip xs (reverse xs))
